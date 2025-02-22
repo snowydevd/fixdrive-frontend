@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
-
+import Link from 'next/link'
 export function HeroSection() {
   return (
     <section className="w-full py-24 lg:py-32">
@@ -16,8 +16,8 @@ export function HeroSection() {
             mechanic.
           </p>
           <Button variant="default" size="lg" className="rounded-full text-base px-8 h-12">
-            Request Access
-            <ArrowRight className="ml-2 h-5 w-5" />
+            <Link href="/chat" className="flex items-center">Lets start <ArrowRight className="ml-2 h-5 w-5" /></Link>
+           
           </Button>
         </div>
       </div>

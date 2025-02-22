@@ -8,8 +8,7 @@ export function SiteHeader() {
       <div className="max-w-7xl mx-auto w-full h-full flex items-center">
         {/* Logo - Left section */}
         <div className="flex items-center gap-2 text-xl w-1/3">
-          <Wrench className="h-6 w-6" />
-          <span className="tracking-wide">FixDrive</span>
+          <span className="tracking-wide font-bold text-sky-400">FixDrive</span>
         </div>
 
         {/* Navigation - Middle section */}
